@@ -1,0 +1,23 @@
+[project]
+name = "test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = "==3.12.8"
+dependencies = [
+    "dataset==2.0.0",
+    "datasets==2.19.1",
+    "dotenv==0.9.9",
+    "pandas==3.0.6",
+    "python-dotenv==1.2.3",
+    "requests==2.31.0",
+    "tiktoken==0.14.0",
+    "yandexgpt-python==0.2.3",
+]
+
+[project.scripts]
+test = "test:main"
+
+[build-system]
+requires = ["uv_build>=0.12.12,<0.13.0"]
+build-backend = "uv_build"
