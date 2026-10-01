@@ -167,7 +167,7 @@ def main():
         json.dump(results2, f, ensure_ascii=False, indent=2)    
     
         
-
+load_dotenv()
 YC_API_KEY = os.getenv("YC_API_KEY")
 YC_FOLDER_ID = os.getenv("YC_FOLDER_ID")
 
